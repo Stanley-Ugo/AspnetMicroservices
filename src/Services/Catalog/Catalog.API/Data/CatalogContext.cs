@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Catalog.API.Data
 {
-    public class CatalogContex : ICatalogContext
+    public class CatalogContext : ICatalogContext
     {
-        public CatalogContex(IConfiguration configuration)
+        public CatalogContext(IConfiguration configuration)
         {
             var client = new MongoClient(configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
             var database = client.GetDatabase(configuration.GetValue<string>("DatabaseSettings:DatabaseName"));
