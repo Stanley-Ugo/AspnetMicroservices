@@ -35,7 +35,7 @@ namespace Discount.API.Extensions
                         Connection = connection
                     };
 
-                    command.CommandText = "DROP TABLE IF EXIST Coupon";
+                    command.CommandText = "DROP TABLE IF EXISTS Coupon";
                     command.ExecuteNonQuery();
 
                     command.CommandText = @"CREATE TABLE Coupon(Id SERIAL PRIMARY KEY,
