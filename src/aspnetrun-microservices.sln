@@ -33,11 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{3848A7CB-49A7-4B7B-9A0F-727EB999A923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{15CE63B3-C7E5-413A-9EBA-14191537CA7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj", "{15CE63B3-C7E5-413A-9EBA-14191537CA7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{A4970279-2664-4C62-8173-BB6EF744925B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "ApiGateways\OcelotApiGw\OcelotApiGw.csproj", "{1FE2FFB4-1B14-44A2-81AA-895A1C2DD031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGw", "ApiGateways\OcelotApiGw\OcelotApiGw.csproj", "{1FE2FFB4-1B14-44A2-81AA-895A1C2DD031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{2B8072DA-1F03-4CA9-A4ED-64A4C7E383A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{1FE2FFB4-1B14-44A2-81AA-895A1C2DD031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE2FFB4-1B14-44A2-81AA-895A1C2DD031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE2FFB4-1B14-44A2-81AA-895A1C2DD031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8072DA-1F03-4CA9-A4ED-64A4C7E383A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8072DA-1F03-4CA9-A4ED-64A4C7E383A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8072DA-1F03-4CA9-A4ED-64A4C7E383A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8072DA-1F03-4CA9-A4ED-64A4C7E383A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{22BAFE8D-CC84-44D9-85DC-34F88716FC78} = {61721EF6-F899-4E5B-AA86-D6B742FADDF8}
 		{15CE63B3-C7E5-413A-9EBA-14191537CA7B} = {3848A7CB-49A7-4B7B-9A0F-727EB999A923}
 		{1FE2FFB4-1B14-44A2-81AA-895A1C2DD031} = {A4970279-2664-4C62-8173-BB6EF744925B}
+		{2B8072DA-1F03-4CA9-A4ED-64A4C7E383A4} = {A4970279-2664-4C62-8173-BB6EF744925B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F34815C-425C-4ED5-9903-769A871E41A3}
